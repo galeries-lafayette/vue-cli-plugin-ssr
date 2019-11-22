@@ -1,4 +1,10 @@
 
+> This fork is a workarround for [Running SSR Server does not work with Typescript #57](https://github.com/Akryum/vue-cli-plugin-ssr/issues/57#issuecomment-498306709).
+The workarround is to rename the package name by adding "z".
+This make the package added into package.json after the "@vue/cli-plugin-typescript"
+Thanks for [nether-cat](https://github.com/nether-cat).
+Waiting for [Plugin ordering #1754, #1938](https://github.com/vuejs/vue-cli/issues/3649)
+
 <p align="center">
   <img src="./docs/.vuepress/public/logo.png">
 </p>
